@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+
+.logo h1{
+	font-family: 'Cherry Bomb One', cursive;
+	font-weight: bolder;
+	font-size: 29px;
+	filter: drop-shadow(1px 3px 1px #aaa);
+}
+.img-box{
+	height: 222px;
+	max-width: 300px;
+	min-width: 200px;
+	width: 280px;
+}
+
+.grid-wrap > div img{
+	width: 300px;
+}
+
+.grid-wrap > div{
+	min-width: 350px;
+}
+
+/* .menu-list{
+
+} */
+.menu-list:hover .hover-menu{
+	display: flex;
+}
+.hover-menu{
+	display: none;
+}
+
+.loader {
+  width: 300px;
+  height: 300px;
+  border-radius: 0 300px 0 0;
+  background-color: rgba(196, 196, 196, 1);
+}
